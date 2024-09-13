@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #04080f;
 }
 
 @media (min-width: 1025px) {
@@ -37,10 +38,14 @@
     }
 }
 
+.movie-card {
+    background-color: #1c1c1c;
+}
 
 .movie-card img {
     width: 100%;
     border-radius: 10px;
+    border: #fafaff 2px solid ;
 }
 
 .movie-info {
@@ -64,8 +69,9 @@ input {
     font-size: 17px;
 }
 
-button {
-
+form button {
+    background-color: #FAF9F6;
+    padding: 7px 7px;
 }
 
 button > img {
